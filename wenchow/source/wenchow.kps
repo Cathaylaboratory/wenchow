@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>16.0.147.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>17.0.326.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
     <ExecuteProgram></ExecuteProgram>
     <ReadMeFile>readme.htm</ReadMeFile>
+    <LicenseFile>..\LICENSE.md</LicenseFile>
+    <WelcomeFile>welcome.htm</WelcomeFile>
     <MSIFileName></MSIFileName>
     <MSIOptions></MSIOptions>
     <FollowKeyboardVersion/>
@@ -18,8 +20,10 @@
   <Info>
     <Name URL="">wenchow</Name>
     <Copyright URL="">© cathaylab</Copyright>
-    <Author URL="">cathaylab</Author>
+    <Author URL="mailto:goetiansoc@proton.me">cathaylab</Author>
     <Version URL=""></Version>
+    <WebSite URL="https://github.com/Cathaylaboratory">https://github.com/Cathaylaboratory</WebSite>
+    <Description URL="">wenchow keyboard for üe-tsiu-‘ó romanized wenchownese.溫州話羅馬字輸入法</Description>
   </Info>
   <Files>
     <File>
@@ -59,31 +63,37 @@
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>wenchow.keyman-touch-layout</Name>
-      <Description>File wenchow.keyman-touch-layout</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.keyman-touch-layout</FileType>
-    </File>
-    <File>
-      <Name>uchau.ico</Name>
-      <Description>File uchau.ico</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.ico</FileType>
-    </File>
-    <File>
       <Name>..\build\wenchow.js</Name>
       <Description>File wenchow.js</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>..\LICENSE.md</Name>
+      <Description>File LICENSE.md</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.md</FileType>
+    </File>
+    <File>
+      <Name>vowel.png</Name>
+      <Description>File vowel.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>consonant.png</Name>
+      <Description>File consonant.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
     </File>
   </Files>
   <Keyboards>
     <Keyboard>
       <Name>wenchow</Name>
       <ID>wenchow</ID>
-      <Version>1.0</Version>
+      <Version>1.1</Version>
       <Languages>
-        <Language ID="wuu-Latn-035">üe-tsiu-ó</Language>
+        <Language ID="wuu-Latn-035">üe-tsiu-‘ó</Language>
       </Languages>
     </Keyboard>
   </Keyboards>

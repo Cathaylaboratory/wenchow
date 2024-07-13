@@ -1,9 +1,8 @@
-﻿c wenchow generated from template at 2024-04-09 05:22:29
-c with name "wenchow"
+﻿c wenchow keyboard for romanized wenchownese üe-tsiu-‘ó.溫州話羅馬字輸入法
 store(&VERSION) '10.0'
 store(&NAME) 'wenchow'
 store(&COPYRIGHT) '© cathaylab'
-store(&KEYBOARDVERSION) '1.0'
+store(&KEYBOARDVERSION) '1.1'
 store(&TARGETS) 'any'
 store(&BITMAP) 'uchau.ico'
 store(&VISUALKEYBOARD) 'wenchow.kvks'
@@ -209,3 +208,56 @@ store(vowels_huyen)             'àèìòùÀÈÌÒÙ'
 'Æ̀' + 'x' > 'Æx'
 'Û́' + 'q' > 'Ûq'
 'Û̀' + 'x' > 'Ûx'
+
+"p" + "h" > "p‘"
+"t" + "h" > "t‘"
+"k" + "h" > "k‘"
+"ts" + "h" > "ts‘"
+"ch" + "h" > "ch‘"
+"kw" + "h" > "kw‘"
+"h" + "h" > "‘"
+
+"P" + "H" > "P‘"
+"T" + "H" > "T‘"
+"K" + "H" > "K‘"
+"TS" + "H" > "TS‘"
+"CH" + "H" > "CH‘"
+"KW" + "H" > "KW‘"
+"H" + "H" > "‘"
+
+"P" + "h" > "P‘"
+"T" + "h" > "T‘"
+"K" + "h" > "K‘"
+"Ts" + "h" > "Ts‘"
+"Ch" + "h" > "Ch‘"
+"Kw" + "h" > "kw‘"
+"H" + "h" > "‘"
+
+"p‘" + "h" > "ph"
+"t‘" + "h" > "th"
+"k‘" + "h" > "kh"
+"ts‘" + "h" > "tsh"
+"ch‘" + "h" > "chh"
+"kw‘" + "h" > "kwh"
+"‘" + "h" > "hh"
+
+"P‘" + "H" > "PH"
+"T‘" + "H" > "TH"
+"K‘" + "H" > "KH"
+"TS‘" + "H" > "TSH"
+"CH‘" + "H" > "CHH"
+"KW‘" + "H" > "KWH"
+"‘" + "H" > "HH"
+
+"P‘" + "h" > "Ph"
+"T‘" + "h" > "Th"
+"K‘" + "h" > "Kh"
+"Ts‘" + "h" > "Tsh"
+"Ch‘" + "h" > "Chh"
+"Kw‘" + "h" > "Kwh"
+
+"o" + "e" > "öe"
+"u" + "e" > "üe"
+
+'öe' + 'e' > 'oe'
+'üe' + 'e' > 'ue'
