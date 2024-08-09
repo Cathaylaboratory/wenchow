@@ -1,4 +1,5 @@
 # 溫州話羅馬字輸入法keyman版本wenchow keyboard in Keyman
+# Wenchownese keyboard based on keyman
 溫州話輸入法
 溫州話輸入法採用字母組合去表達特殊的字母和音調，比如說輸入ae 就會得到æ, 雙擊i, u, o, l, m, n, 會得到ï,û,ö,l̆,m̌,ň,輸入uw會得到ü, 另外，這個輸入法使用q和x去表達吳語是上聲和去聲，á, à希望大家用得開心
 
